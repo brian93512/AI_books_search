@@ -26,7 +26,7 @@ This is a web service to find top review books and their key words from The-Book
 
 * Redis: As a data base to store books data, every data will expire after 200 seconds in the database
 * Flask: Used for buliding REST API
-* scikit-learn: Used Tf-idf package for computing similarity of book titles and book summaries
+* scikit-learn: Used Tf-idf package for computing similarity of book titles and key words extraction for book summaries
 * AWS: Used for deploy the web service
 
 ## References
