@@ -18,9 +18,16 @@ This is a web service to find top review books and their key words from The-Book
    
    api: http://ec2-18-188-8-28.us-east-2.compute.amazonaws.com:5002/topSimilarity/N/X
    
-3. Top key words: enter the epoch time from now N (1-50) and number of top books X (1-50), it will return top X books with their top 5 key words
+3. Top key words: enter the epoch time from now N (1-50) and number of top books X (1-50), it will return top X books with their top 5 key words in the book summaries
    
    api: http://ec2-18-188-8-28.us-east-2.compute.amazonaws.com:5002/topKeyWords/N/X
+
+## Tools
+
+1. Redis: As a data base to store books data, every data will expire after 200 seconds in the database
+2. Flask: Used for buliding REST API
+3. Scikit-learn: Used Tf-idf package for computing similarity of book titles and book summaries
+4. AWS: Used for deploy the web service
 
 ## References
 All books data comes from: https://di37ol03g7.execute-api.us-west-2.amazonaws.com/dev/ 
