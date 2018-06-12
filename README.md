@@ -13,3 +13,6 @@ N is a counter on epochs, where N=1 is the epoch (currentTime, currentTime - 4se
    
 3. top key words: enter the epoch time from now N (1-50) and number of top books X (1-50), it will return top X books with their top 5 key words
    api: http://ec2-18-188-8-28.us-east-2.compute.amazonaws.com:5002/topKeyWords/<N>/<X>
+
+## References
+All books data comes from: https://di37ol03g7.execute-api.us-west-2.amazonaws.com/dev/ 
