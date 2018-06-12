@@ -1,5 +1,5 @@
 # AI_books_search
-this is a web service to find top review books and their key words from The-Book website
+This is a web service to find top review books and their key words from The-Book website.
 
 ## How It Works
 Epoch: a epoch is defined by a api call, every 4 seconds
