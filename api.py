@@ -13,7 +13,7 @@ STOP_WORDS = set(stopwords.words('english'))
 NUM_TOP_KEY_WORDS = 5
 EPOCH_INTERVAL_SEC = 4
 REDIS_PORT = 6379
-FLUSK_PORT = '5002'
+FLASK_PORT = '5002'
 
 def _search(N, curr_time):
     """
@@ -179,4 +179,4 @@ if __name__ == '__main__':
     api.add_resource(TopReview, '/topReview/<N>/<X>')
     api.add_resource(TopSimilarity, '/topSimilarity/<N>/<X>')
     api.add_resource(TopKeyWords, '/topKeyWords/<N>/<X>')
-    app.run(host='0.0.0.0', port=FLUSK_PORT)
+    app.run(host='0.0.0.0', port=FLASK_PORT)
