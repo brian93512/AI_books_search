@@ -1,6 +1,3 @@
-from datetime import datetime, timedelta
-from flask import Flask, request
-from flask_restful import Resource, Api
 import json
 import redis
 import requests
