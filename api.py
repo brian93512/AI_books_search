@@ -95,10 +95,6 @@ class TopReview(Resource):
         :type X: str
         :rtype: dict
         """
-        # N, X = int(N), int(X)
-        # if (N < 1 or N > 50) or (X < 1 or X > 50):
-        #     return {"Invalid Input!": ("Time Interval should be within 1 and 50. " 
-        #     "Top number of books should be within 1 and 50.")}
         if _isInvalidInput(N, X):
             return {"Invalid Input": _isInvalidInput(N, X)}
         N, X = int(N), int(X)
@@ -117,11 +113,11 @@ class TopSimilarity(Resource):
 
     def get(self, N, X):
         """
-            get X top review books and their similarity between each 
-            other top book in time interval N from now 
-            :type N: str
-            :type X: str
-            :rtype: dict
+        get X top review books and their similarity between each 
+        other top book in time interval N from now 
+        :type N: str
+        :type X: str
+        :rtype: dict
         """
         if _isInvalidInput(N, X):
             return {"Invalid Input": _isInvalidInput(N, X)}
