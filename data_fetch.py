@@ -25,7 +25,7 @@ def fetch():
     p.set(now, dic)
     p.expire(now, DATA_LAST_TIME_IN_REDIS_SEC)
     p.execute()
-    print "insert :", now
+    # print "insert :", now
 
 if __name__ == '__main__':
     r = redis.StrictRedis(host='localhost', port=REDIS_PORT, db=0)
