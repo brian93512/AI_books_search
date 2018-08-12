@@ -12,15 +12,15 @@ This is a web service to find top review books and their key words from The-Book
 
 1. Top review: enter the epoch time from now N (1-50) and number of top books X (1-50), it will return top X books with their review scores
    
-   api: http://ec2-18-188-8-28.us-east-2.compute.amazonaws.com:5002/topReview/N/X
+   api: http://ec2-18-216-190-42.us-east-2.compute.amazonaws.com:5002/topReview/N/X
 
 2. Top similarity: enter the epoch time from now N (1-50) and number of top books X (1-50), it will return top X books and the similarity score among other top review books
    
-   api: http://ec2-18-188-8-28.us-east-2.compute.amazonaws.com:5002/topSimilarity/N/X
+   api: http://ec2-18-216-190-42.us-east-2.compute.amazonaws.com:5002/topSimilarity/N/X
    
 3. Top key words: enter the epoch time from now N (1-50) and number of top books X (1-50), it will return top X books with their top 5 key words in the book summaries
    
-   api: http://ec2-18-188-8-28.us-east-2.compute.amazonaws.com:5002/topKeyWords/N/X
+   api: http://ec2-18-216-190-42.us-east-2.compute.amazonaws.com:5002/topKeyWords/N/X
 
 ## Tools
 
